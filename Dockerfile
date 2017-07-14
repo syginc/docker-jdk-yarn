@@ -1,4 +1,4 @@
-FROM library/openjdk:8-jdk
+FROM openjdk:8-jdk
 
 # Install node 6.x
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - \
