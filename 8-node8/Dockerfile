@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk
+FROM openjdk:8-jdk-buster
 
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
     apt-get install -y nodejs && \
